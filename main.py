@@ -8,7 +8,7 @@ pixels = list(img.getdata()) # получение данных с картинк
 result = []
 array = []
 count = 0
-maxCount = 99
+maxCount = 99 # количество пикселей по горизонтали
 for pix in pixels: # сопоставление разных значений с различными символами и запись в массив
     r, g, b = pix
     if (count < maxCount):
